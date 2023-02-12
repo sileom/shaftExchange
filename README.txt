@@ -36,7 +36,7 @@ make
 
 
 To test the detector, run ONLY the code that does not move the robot.
-In folder build/uca_franka run first
+In folder build/shaftExchange run first
 
 ./detection_scarico <robot_ip>
 
