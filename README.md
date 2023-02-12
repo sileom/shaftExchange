@@ -1,6 +1,26 @@
 # Shaft Echange
 Code to grasp two types of shaft from a box and to move the robot toward an exchange position. 
 
+This repository contains the implementation of the Generative Grasping Convolutional Neural Network (GG-CNN) from the paper:
+### Vision based robot-to-robot object handover
+Monica Sileo, Michelangelo Nigro, Domenico D Bloisi, Francesco Pierri
+
+2021 20th International Conference on Advanced Robotics (ICAR)
+
+[Paper] | [Video]
+
+If you use this work, please cite:
+```shell
+@inproceedings{sileo2021vision,
+  title={Vision based robot-to-robot object handover},
+  author={Sileo, Monica and Nigro, Michelangelo and Bloisi, Domenico D and Pierri, Francesco},
+  booktitle={2021 20th International Conference on Advanced Robotics (ICAR)},
+  pages={664--669},
+  year={2021},
+  organization={IEEE}
+}
+```
+
 # Requirements
 The code works with a Franka Emika Panda Robot and requires the libfranka library to be installed in the system.
 
