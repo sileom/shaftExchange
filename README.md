@@ -1,7 +1,7 @@
 # Shaft Echange
 Code to grasp two types of shaft from a box and to move the robot toward an exchange position. 
 
-This repository contains the implementation of the Generative Grasping Convolutional Neural Network (GG-CNN) from the paper:
+This repository contains the implementation of the algorithm described in the paper:
 ### Vision based robot-to-robot object handover
 Monica Sileo, Michelangelo Nigro, Domenico D Bloisi, Francesco Pierri
 
