@@ -7,7 +7,7 @@ Monica Sileo, Michelangelo Nigro, Domenico D Bloisi, Francesco Pierri
 
 2021 20th International Conference on Advanced Robotics (ICAR)
 
-[Paper] | [Video]
+[Paper](https://ieeexplore.ieee.org/abstract/document/9659446?casa_token=QYa1opeD_aEAAAAA:xj0SNsAXZcnTomZVVcm-pML1Ct5vygCOcR7hyk1TTRzsiPNo76NubkJXNJsJs5LDUpSrJcU-WA) | [Video](https://youtu.be/bLfm3qG2ooE)
 
 If you use this work, please cite:
 ```shell
