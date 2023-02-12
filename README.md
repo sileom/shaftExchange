@@ -1,5 +1,5 @@
 # Shaft Echange
-Code for grasp two types of shaft from a box and for moving the robot toward an exchange position. 
+Code to grasp two types of shaft from a box and to move the robot toward an exchange position. 
 
 # Requirements
 The code works with a Franka Emika Panda Robot and requires the libfranka library to be installed in the system.
