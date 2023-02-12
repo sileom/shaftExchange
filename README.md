@@ -16,26 +16,19 @@ You have to change some absolute paths:
 In CMakeLists.txt
 Rows 34, 72
 
-In include/utils_cam_uca.hpp
-Rows 202, 237, 240, 242
+In include/utils_cam_uca.hpp: rows 202, 237, 240, 242
 
-In detection_aspirazione.cpp
-Rows 35, 46, 48
+In detection_aspirazione.cpp: rows 35, 46, 48
 
-In detection_scarico.cpp
-Rows 35, 46, 48
+In detection_scarico.cpp: rows 35, 46, 48
 
-In graspAspirazione.cpp
-Rows 55, 69, 75, 163
+In graspAspirazione.cpp: rows 55, 69, 75, 163
 
-In graspScarico.cpp
-Rows 53, 67, 73, 157
+In graspScarico.cpp: rows 53, 67, 73, 157
 
-In moveCobot.cpp
-Rows 52, 68, 74, 169, 171
+In moveCobot.cpp: rows 52, 68, 74, 169, 171
 
-In openGripper.cpp
-Rows 16, 28
+In openGripper.cpp: rows 16, 28
 
 
 To build, open a terminal and run
