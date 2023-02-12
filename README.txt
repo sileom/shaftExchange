@@ -1,50 +1,44 @@
-In resources/initPose.txt si può modificare il tempo per raggiungere quella posizione
+Download the model file from here and put it in 
 
 
--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+In resources/initPose.txt you can change the motion time.
 
-I riferimenti fatti di seguito si riferiscono ai file che si trovano nella cartella uca_franka.
-Ci sono da modificare i path assoluti di alcuni file.
+
+You have to change some absolute paths:
 
 In CMakeLists.txt
-Righe 34, 72
+Rows 34, 72
 
 In include/utils_cam_uca.hpp
-Righe 202, 237, 240, 242
+Rows 202, 237, 240, 242
 
 In detection_aspirazione.cpp
-Righe 35, 46, 48
+Rows 35, 46, 48
 
 In detection_scarico.cpp
-Righe 35, 46, 48
+Rows 35, 46, 48
 
 In graspAspirazione.cpp
-Righe 55, 69, 75, 163
+Rows 55, 69, 75, 163
 
 In graspScarico.cpp
-Righe 53, 67, 73, 157
+Rows 53, 67, 73, 157
 
 In moveCobot.cpp
-Righe 52, 68, 74, 169, 171
+Rows 52, 68, 74, 169, 171
 
 In openGripper.cpp
-Righe 16, 28
+Rows 16, 28
 
--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
-Per effettuare la compilazione, dopo aver fatto tutte le modifiche di cui sopra, da terminale andare nella cartella 
-libfranka/build 
-e lanciare il comando
+To build, open a terminal in folder libfranka/build and run
 make
 
--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
-Per testare occorre lanciare i SOLI codici che fanno i calcoli ma fanno stare fermo il robot, cioè:
-dalla cartella build/uca_franka lanciare prima
+To test the detector, run ONLY the code that does not move the robot.
+In folder build/uca_franka run first
+
 ./detection_scarico <robot_ip>
 
-e poi 
+and then
 ./graspScarico <robot_ip> <path_to shatf.txt file>
-
-Quando si lancia il detector la camera deve essere collegata.
-Se questi due funzionano non mi aspetto particolari problemi quando andremo a eseguire il caso d'uso nel complesso
